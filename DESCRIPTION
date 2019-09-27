@@ -14,13 +14,11 @@ Description: This package contains methods to run mediation analysis and MR with
 License: GPL-2
 Depends: R (>= 3.5.1)
 Imports: 
-    mediation,
-    snow,
-    methods,
-    parallel,
-    Rcpp,
     mvtnorm,
-    pbapply
+    mediation,
+    Rcpp,
+    pbapply,
+    snow
 URL: https://github.com/SharonLutz/reverseMAthread
 BugReports: https://github.com/SharonLutz/reverseMAthread/issues
 RoxygenNote: 6.1.1
